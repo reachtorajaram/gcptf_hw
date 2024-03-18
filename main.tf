@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("C:\Data\Code\GCP\tfsa.json")
+  credentials = file("C:/Data/Code/GCP/tfsa.json")
 
   project = "steam-bonbon-416014"
   region  = "us-central1"
